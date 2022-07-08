@@ -1,0 +1,19 @@
+.portfolio__item {
+  background: $bg-color-variante;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: $transition;
+  &:hover {
+    border-color: $bg-color-variante;
+    background: transparent;
+  }
+  &-title{
+    margin: 1.2rem 0 2rem;
+  }
+  &-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+}

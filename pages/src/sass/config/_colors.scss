@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #1f1f38;
+  --bg-color-variante: #2c2c6c;
+
+  --primary-color: #4db5ff;
+  --secondary-color: rgba(77, 181, 255, 0.4);
+
+  --white-color: #ffff;
+  --light-color: rgba(255, 255, 255, 0.6);
+}
+
+$bg-color: var(--bg-color);
+$bg-color-variante: var(--bg-color-variante);
+
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+
+$white-color: var(--white-color);
+$light-color: var(--light-color);

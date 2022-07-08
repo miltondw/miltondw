@@ -1,0 +1,40 @@
+.service {
+  background: $bg-color-variante;
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid $primary-color;
+  height: fit-content;
+  transition: $transition;
+  @include tablet{
+    height: auto;
+  }
+  &:hover {
+    background: transparent;
+    border-color: $bg-color-variante;
+  }
+  &__head {
+    background: $primary-color;
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    &-title {
+      color: $bg-color;
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  &__list {
+    padding: 1rem;
+    &-content {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 0.8rem;
+      align-items: center;
+    }
+    &-icon {
+      color: $primary-color;
+    }
+    &-item {
+      font-size: 0.9rem;
+    }
+  }
+}

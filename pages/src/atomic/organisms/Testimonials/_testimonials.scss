@@ -1,0 +1,9 @@
+.testimonials__container{
+    width: 40%;
+    @include tablet{
+        width: 60%;
+    }
+    @include phone{
+        width: $container-width-sm;
+    }
+}

@@ -1,0 +1,50 @@
+.about__container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  @include tablet {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, $primary-color, transparent);
+  display: grid;
+  place-items: center;
+  &-img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: $transition;
+    &:hover {
+      transform: rotate(0);
+    }
+  }
+  @include tablet {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  @include phone {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+}
+.about__content {
+  @include phone {
+    text-align: center;
+  }
+  &-paragraph {
+    margin: 2rem 0 2.6rem;
+    color: $light-color;
+    @include tablet {
+      margin: 1rem 0 1.5rem;
+    }
+    @include phone {
+      margin: 1.5rem 0;
+    }
+  }
+}

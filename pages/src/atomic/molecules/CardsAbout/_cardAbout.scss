@@ -1,0 +1,37 @@
+.cardsAbout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  @include phone {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+.cardAbout {
+  background: $bg-color-variante;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  transition: $transition;
+  display: grid;
+  justify-items: center;
+  &:hover {
+    background: transparent;
+    border-color: $bg-color-variante;
+    cursor: pointer;
+  }
+  &__icon {
+    color: $primary-color;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  &__title {
+    font-size: 0.95rem;
+  }
+  &__subTitle {
+    font-size: 0.7rem;
+    color: $light-color;
+  }
+}

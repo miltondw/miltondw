@@ -1,0 +1,28 @@
+.contact__option {
+  background: $bg-color-variante;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: $transition;
+  &:hover {
+    background: transparent;
+    border-color: $secondary-color;
+  }
+  &-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  &-link {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+  }
+  &-title {
+    margin: 0;
+  }
+  &-option {
+    margin: 0.5rem 0em;
+    color: $light-color;
+  }
+}

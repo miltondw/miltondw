@@ -1,0 +1,39 @@
+.header {
+  height: 100vh;
+  padding-top: 0;
+  overflow: hidden;
+  @include tablet {
+    height: 68vh;
+  }
+  @include phone {
+    height: 100vh;
+  }
+
+  &__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+  .me {
+    background: linear-gradient($primary-color, transparent);
+    width: 16rem;
+    height: 19rem;
+    position: absolute;
+    left: calc(50% - 8rem);
+    margin-top: 2rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+  }
+  .scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 7rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+    @include phone{
+        display: none;
+    }
+  }
+}
