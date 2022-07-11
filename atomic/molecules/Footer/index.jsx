@@ -1,4 +1,3 @@
-import React from "react";
 import { BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
