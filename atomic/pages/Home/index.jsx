@@ -9,15 +9,16 @@ import Services from "../../organisms/Services";
 import Portfolio from "../../organisms/Portfolio";
 import Contact from "../../organisms/Contact";
 
-const Home = () => {
+const Home = ({ data }) => {
+  const { projects, services, experience } = data;
   return (
     <div>
       <Header />
       <Nav />
       <About />
-      <Experience />
-      <Services />
-      <Portfolio />
+      <Experience experience={experience} />
+      <Services services={services} />
+      <Portfolio projects={projects} />
       <Contact />
       <Footer />
     </div>

@@ -4,7 +4,7 @@ const CardPortfolio = ({ img, title, link }) => {
   return (
     <article className="portfolio__item">
       <div className="portfolio__item-img">
-        <Image src={img.src} alt={img.alt} width={350} height={280} layout="responsive" />
+        <Image src={img} alt={title} width={350} height={280} layout="responsive" />
       </div>
       <h3 className="portfolio__item-title">{title}</h3>
       <div className="portfolio__item-cta">

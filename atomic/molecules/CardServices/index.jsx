@@ -7,12 +7,13 @@ const CardsServices = ({ title, items }) => {
         <h3 className="service__head-title">{title}</h3>
       </div>
       <ul className="service__list">
-        {items.map((item) => (
-          <li className="service__list-content" key={item}>
-            <BiCheck className="service__list-icon"/>
-            <p className="service__list-item">{item}</p>
-          </li>
-        ))}
+        {items &&
+          items.map((item) => (
+            <li className="service__list-content" key={item}>
+              <BiCheck className="service__list-icon" />
+              <p className="service__list-item">{item}</p>
+            </li>
+          ))}
       </ul>
     </article>
   );

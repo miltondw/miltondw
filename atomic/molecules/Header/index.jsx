@@ -1,4 +1,3 @@
-import React from "react";
 import BtnCta from "../../atoms/BtnCta";
 import Image from "next/image";
 import RSS from "../../atoms/RSS";
@@ -15,8 +14,6 @@ const Header = () => {
           <Image
             src="/assets/me-about.png"
             alt="Yo"
-            width={128}
-            height={203}
             layout="fill"
             className="img_me"
           />

@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Home from "./src/atomic/pages/Home"
-export default function App() {
+import Home from "../atomic/pages/Home";
+export default function App({ data }) {
   return (
     <div>
-     <Head>
+      <Head>
         <html lang="es" translate="no">
           <title>Miltondw FrontEnd</title>
           <meta
@@ -13,7 +13,16 @@ export default function App() {
           <link rel="icon" href="/favicon.ico" />
         </html>
       </Head>
-      <Home />
+      <Home data={data} />
     </div>
-  )
+  );
+}
+export async function getServerSideProps() {
+  const res = await fetch(process.env.BASE_URL);
+  const data = await res.json();
+  return {
+    props: {
+      data,
+    },
+  };
 }
