@@ -1,19 +1,20 @@
 .navbar {
   position: fixed;
-  background: var(--bg-color-variante);
+  background: var(--bg-color);
   width: 90%;
   bottom: 1em;
   left: 5%;
   border-radius: 20px;
   padding: 0.5em;
   z-index: 1000;
+  opacity: 0.9;
   .navItems {
     display: flex;
     font-size: 1.2em;
     justify-content: space-around;
     .active {
       border: 1px solid;
-      background: var(--bg-color);
+      background: var(--bg-color-variante);
     }
     .navItem {
       width: 2.5em;
