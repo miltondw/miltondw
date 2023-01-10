@@ -1,0 +1,57 @@
+body {
+  background-color: $bg-color;
+  font-family: $main-font, sans-serif;
+  color: $white-color;
+  line-height: 1.7;
+  background-image: url("/assets/bg-texture.png");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  background-color: $primary-color;
+}
+ul {
+  @include reset-list;
+}
+main {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+.btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: $bg-color;
+}
+.btn-secondary {
+  border: 1px solid $primary-color;
+  color: $primary-color;
+}

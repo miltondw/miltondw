@@ -1,0 +1,9 @@
+:root {
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+$container-width-lg: var(--container-width-lg);
+$container-width-md: var(--container-width-md);
+$container-width-sm: var(--container-width-sm);

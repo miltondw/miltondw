@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  background: var(--bg-color-variante);
+  width: 90%;
+  bottom: 1em;
+  left: 5%;
+  border-radius: 20px;
+  padding: 0.5em;
+  .navItems {
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-around;
+    .active {
+      border: 1px solid;
+      background: var(--bg-color);
+    }
+    .navItem {
+      width: 2.5em;
+      height: 2.5em;
+      border-radius: 50%;
+      display: flex;
+      cursor: pointer;
+      .navLink {
+        color: var(--white-color);
+        margin: auto;
+        display: flex;
+      }
+    }
+  }
+}
