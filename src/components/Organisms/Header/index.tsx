@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./styles.module.scss";
 import profile from "../../../img/profile_home.png";
-export const Inicio = () => {
+export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.welcome}>

@@ -1,0 +1,39 @@
+.about {
+  .aboutImage {
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background-image: linear-gradient(
+      109deg,
+      var(--primary-color),
+      transparent
+    );
+    justify-content: center;
+    img {
+      border-radius: 30px;
+      transition: transform 1s;
+      transform: rotate(-18deg);
+    }
+    &:hover img {
+      transition: transform 1s;
+      transform: scale(1.12);
+    }
+  }
+  .CardsAbout {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    margin-top: 2em;
+  }
+  .footer {
+    text-align: center;
+    .paragraph {
+      width: 90%;
+      margin: 1em auto;
+      text-align: justify;
+    }
+  }
+}

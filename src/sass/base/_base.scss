@@ -39,6 +39,7 @@ h5 {
 h1 {
   font-size: 2.5rem;
 }
+// Buttons
 .btn {
   background: transparent;
   border: none;
@@ -54,4 +55,13 @@ h1 {
 .btn-secondary {
   border: 1px solid $primary-color;
   color: $primary-color;
+}
+// Buttons end
+section {
+  min-height: 100vh;
+}
+.title-header {
+  text-align: center;
+  color: $primary-color;
+  font-size: 2.5rem;
 }
