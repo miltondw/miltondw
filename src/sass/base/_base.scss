@@ -5,6 +5,8 @@ body {
   line-height: 1.7;
   background-image: url("/assets/bg-texture.png");
   overflow-x: hidden;
+  max-width: 360px;
+  margin: auto;
 }
 * {
   margin: 0;

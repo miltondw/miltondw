@@ -12,7 +12,7 @@ export const Landing = ({ data }: any) => {
       <Header />
       <About />
       <Experience experience={data.experience} />
-      <Services />
+      <Services services={data.services} />
       <Projects />
       <Contact />
     </div>
