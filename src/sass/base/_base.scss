@@ -4,6 +4,7 @@ body {
   color: $white-color;
   line-height: 1.7;
   background-image: url("/assets/bg-texture.png");
+  overflow-x: hidden;
 }
 * {
   margin: 0;

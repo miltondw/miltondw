@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Layout } from "../components/Layout";
 import { Landing } from "../components/views/Landing";
-export default function Home() {
+export default function Home({ data }: any) {
   return (
     <>
       <Head>
@@ -14,7 +14,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Layout>
-        <Landing />
+        <Landing data={data} />
       </Layout>
     </>
   );

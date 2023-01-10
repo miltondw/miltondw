@@ -6,12 +6,12 @@ import { Header } from "../Organisms/Header";
 import { Projects } from "../Organisms/Projects";
 import { Services } from "../Organisms/Services";
 
-export const Landing = () => {
+export const Landing = ({ data }: any) => {
   return (
     <div>
       <Header />
       <About />
-      <Experience />
+      <Experience experience={data.experience} />
       <Services />
       <Projects />
       <Contact />

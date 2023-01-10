@@ -1,0 +1,30 @@
+.content {
+  background: var(--bg-color-variante);
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  .title {
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5em;
+    width: 80%;
+    margin: 1em auto;
+    .item {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        color: var(--primary-color);
+      }
+      .itemTitle {
+        font-size: 18px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
