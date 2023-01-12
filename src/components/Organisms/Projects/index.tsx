@@ -8,6 +8,7 @@ interface IProjects {
       git: string;
       demo: string;
       title: string;
+      info: string;
       id: number;
     }
   ];

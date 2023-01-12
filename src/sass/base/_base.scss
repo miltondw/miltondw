@@ -66,6 +66,12 @@ h1 {
   border: 1px solid $primary-color;
   color: $primary-color;
 }
+.btn-tertiary {
+  background: $white-color;
+  a {
+    font-weight: 800;
+  }
+}
 // Buttons end
 section {
   min-height: 100vh;
