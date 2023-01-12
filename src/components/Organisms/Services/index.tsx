@@ -10,7 +10,7 @@ interface IServices {
 }
 export const Services = ({ services }: IServices) => {
   return (
-    <section className={styles.about}>
+    <section id='services' className={styles.about}>
       <h2 className='title-header'>Servicios</h2>
       <div className={styles.container}>
         <CardServices

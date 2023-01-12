@@ -5,7 +5,7 @@ import { CardAbout } from "../../Molecules/CardAbout";
 import styles from "./styles.module.scss";
 export const About = () => {
   return (
-    <section className={styles.about}>
+    <section id='about' className={styles.about}>
       <h2 className='title-header'>Conóceme</h2>
 
       <div className={styles.CardsAbout}>

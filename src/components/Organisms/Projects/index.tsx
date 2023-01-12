@@ -15,7 +15,7 @@ interface IProjects {
 }
 export const Projects = ({ projects }: IProjects) => {
   return (
-    <section className={styles.content}>
+    <section id='projects' className={styles.content}>
       <h2 className='title-header'>Proyectos</h2>
       <div className={styles.projects}>
         {projects.map((project) => (
