@@ -1,5 +1,7 @@
-.about {
-  .aboutImage {
-    background: red;
+.content {
+  .projects {
+    display: grid;
+    place-items: center;
+    grid-gap: 2em;
   }
 }

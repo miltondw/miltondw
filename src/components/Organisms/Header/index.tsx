@@ -9,7 +9,7 @@ export const Header = () => {
         <h1 className={styles.title}>Milton Estrada</h1>
         <h2 className={styles.subtitle}>FullStack Developer</h2>
       </div>
-      <div className={styles.btns}>
+      <div className='btns'>
         <button className='btn btn-secondary'>
           <a href='/assets/Milton-Estrada-FrontEnd-CV.pdf' download>
             Descargar curriculum

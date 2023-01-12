@@ -5,7 +5,6 @@ body {
   line-height: 1.7;
   background-image: url("/assets/bg-texture.png");
   overflow-x: hidden;
-  max-width: 360px;
   margin: auto;
 }
 * {
@@ -20,6 +19,8 @@ ul {
 }
 main {
   min-height: 100vh;
+  max-width: 360px;
+  margin: auto;
 }
 
 a {
@@ -43,6 +44,12 @@ h1 {
   font-size: 2.5rem;
 }
 // Buttons
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .btn {
   background: transparent;
   border: none;
@@ -62,9 +69,11 @@ h1 {
 // Buttons end
 section {
   min-height: 100vh;
+  margin: 4em 0;
 }
 .title-header {
   text-align: center;
   color: $primary-color;
   font-size: 2.5rem;
+  margin: 1em;
 }

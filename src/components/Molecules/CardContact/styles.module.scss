@@ -1,0 +1,23 @@
+.content {
+  background: var(--bg-color-variante);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  width: 80%;
+  margin: 1em auto;
+  display: grid;
+  place-items: center;
+  box-shadow: 1px 1px 13px 2px var(--bg-color-variante);
+  svg {
+    font-size: 1.5em;
+  }
+  .title {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+  .option {
+    margin: 0.5rem 0em;
+    color: var(--light-color);
+  }
+}

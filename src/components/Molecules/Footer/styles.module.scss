@@ -1,0 +1,26 @@
+.footer {
+  background: var(--primary-color);
+  color: var(--bg-color);
+  display: grid;
+  width: 100%;
+  place-items: center;
+  padding: 1em;
+  .title {
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--bg-color-variante);
+    text-shadow: 1px 1px 10px;
+  }
+  .list {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0.6em 0;
+  }
+  .socials {
+    font-size: 30px;
+    a {
+      margin: 0.5em;
+    }
+  }
+}
