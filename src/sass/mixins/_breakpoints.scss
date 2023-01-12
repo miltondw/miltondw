@@ -1,5 +1,5 @@
-$tablet: 600px;
-$desktop: 1125px;
+$tablet: 700px;
+$laptop: 1024px;
 
 @mixin tablet {
   @media screen and (min-width: $tablet) {
@@ -7,8 +7,8 @@ $desktop: 1125px;
   }
 }
 
-@mixin desktop {
-  @media screen and (min-width: $desktop) {
+@mixin laptop {
+  @media screen and (min-width: $laptop) {
     @content;
   }
 }

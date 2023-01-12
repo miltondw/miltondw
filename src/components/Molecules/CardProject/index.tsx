@@ -15,7 +15,10 @@ export const CardProject = ({ project }: ICardProject) => {
   const { img, title, demo, git, info } = project;
   const [moreInfo, setMoreInfo] = useState(false);
   return (
-    <div onClick={() => setMoreInfo(!moreInfo)} className={styles.project}>
+    <div
+      onTouchMove={() => setMoreInfo(!moreInfo)}
+      onClick={() => setMoreInfo(!moreInfo)}
+      className={styles.project}>
       <div className={`${styles.infoContent} ${moreInfo && styles.infoActive}`}>
         <p className={styles.info}>{info}</p>
       </div>

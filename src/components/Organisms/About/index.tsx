@@ -11,19 +11,21 @@ export const About = () => {
       <div className={styles.CardsAbout}>
         <CardAbout />
       </div>
-      <figure className={styles.aboutImage}>
-        <Image alt='miltondw' src={about} width={250} height={249} />
-      </figure>
-      <div className={styles.footer}>
-        <p className={styles.paragraph}>
-          Me apasiona ayudar a las empresas a crecer y adaptarse al mundo
-          digital. Mi experiencia se basa en la recopilación de fundaciones y
-          empresas en las que he podido colaborar, desde la creación de nuevos
-          productos, adaptación y su actualización.
-        </p>
-        <button className='btn btn-primary'>
-          <a href='#contact'>Hablemos</a>
-        </button>
+      <div className={styles.contentFigure}>
+        <figure className={styles.aboutImage}>
+          <Image alt='miltondw' src={about} width={250} height={249} />
+        </figure>
+        <div className={styles.footer}>
+          <p className={styles.paragraph}>
+            Me apasiona ayudar a las empresas a crecer y adaptarse al mundo
+            digital. Mi experiencia se basa en la recopilación de fundaciones y
+            empresas en las que he podido colaborar, desde la creación de nuevos
+            productos, adaptación y su actualización.
+          </p>
+          <button className='btn btn-primary'>
+            <a href='#contact'>Hablemos</a>
+          </button>
+        </div>
       </div>
     </section>
   );

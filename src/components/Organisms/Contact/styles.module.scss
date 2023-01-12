@@ -1,6 +1,10 @@
+@import "../../../sass/mixins/breakpoints";
+
 .contact {
-}
-.container {
-}
-.contacts {
+  .container {
+    @include tablet {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  }
 }

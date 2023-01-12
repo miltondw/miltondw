@@ -1,4 +1,12 @@
+@import "../../../sass/mixins/_breakpoints.scss";
 .about {
+  .contentFigure {
+    @include tablet {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      margin-top: 3em;
+    }
+  }
   .aboutImage {
     width: 280px;
     height: 280px;
@@ -27,6 +35,11 @@
     width: 100%;
     place-items: center;
     margin-top: 2em;
+    @include tablet {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
   }
   .footer {
     text-align: center;

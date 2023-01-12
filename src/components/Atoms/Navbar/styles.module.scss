@@ -1,3 +1,4 @@
+@import "../../../sass/mixins/breakpoints";
 .navbar {
   position: fixed;
   background: var(--bg-color);
@@ -12,7 +13,14 @@
   box-shadow: 1px 1px 8px var(--bg-color-variante);
   transform: scale(1);
   transition: transform 1s;
-
+  @include tablet {
+    width: 50%;
+    left: 25%;
+  }
+  @include laptop {
+    width: 40%;
+    left: 35%;
+  }
   .navItems {
     display: flex;
     font-size: 1.2em;

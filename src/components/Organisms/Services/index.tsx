@@ -12,7 +12,7 @@ export const Services = ({ services }: IServices) => {
   return (
     <section className={styles.about}>
       <h2 className='title-header'>Servicios</h2>
-      <div>
+      <div className={styles.container}>
         <CardServices
           title='Consultoría Tecnológica'
           services={services.itemsTech}

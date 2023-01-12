@@ -15,14 +15,7 @@ export const projects: IProjects[] = [
     info: "Sitio web para los Consultar las características de personajes de Star Wars. Tech Stack  Client: Nextjs, TypeScript, GraphQL-Apollo, Antd. La API: https://swapi.loquenecesito.co/graphql/",
     id: 1,
   },
-  {
-    img: "/assets/portfolio/weather.png",
-    git: "https://github.com/miltondw/weater-app-react",
-    demo: "https://faciuni.000webhostapp.com/",
-    title: "Weather App",
-    info: "App web para ver el clima pasando los parámetros del país y la ciudad. Tech Stack : Reactjs Node-Sass. La API:`https://api.openweathermap.org/data/2.5/weather?q=${cityValue},${countryValue}&appid=${API_KEY}&units=metric`;",
-    id: 2,
-  },
+
   {
     img: "/assets/portfolio/lazo.png",
     git: "https://github.com/miltondw/lazo-social",
@@ -54,6 +47,14 @@ export const projects: IProjects[] = [
     title: "Pinteres Platz",
     info: "Platzi Challenge Clone Pinterest básico Tech Stack  Client: REACTJS,TailwindCSS API:https://picsum.photos/v2/list?limit=8",
     id: 4,
+  },
+  {
+    img: "/assets/portfolio/weather.png",
+    git: "https://github.com/miltondw/weater-app-react",
+    demo: "https://faciuni.000webhostapp.com/",
+    title: "Weather App",
+    info: "App web para ver el clima pasando los parámetros del país y la ciudad. Tech Stack : Reactjs Node-Sass. La API:`https://api.openweathermap.org/data/2.5/weather?q=${cityValue},${countryValue}&appid=${API_KEY}&units=metric`;",
+    id: 2,
   },
 ];
 

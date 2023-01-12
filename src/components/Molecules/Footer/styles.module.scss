@@ -1,3 +1,4 @@
+@import "../../../sass/mixins/breakpoints";
 .footer {
   background: var(--primary-color);
   color: var(--bg-color);
@@ -5,6 +6,7 @@
   width: 100%;
   place-items: center;
   padding: 1em;
+  
   .title {
     font-weight: bold;
     font-size: 22px;
@@ -16,6 +18,10 @@
     font-size: 18px;
     font-weight: 500;
     margin: 0.6em 0;
+    @include tablet {
+      display: flex;
+      gap: 2em;
+    }
   }
   .socials {
     font-size: 30px;
