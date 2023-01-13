@@ -20,8 +20,7 @@ export default function Home({ data }: any) {
   );
 }
 export async function getServerSideProps() {
-  const URL = "http://localhost:3000/api/";
-  const res = await fetch(URL || process.env.API_URL);
+  const res = await fetch(process.env.BASE_URL || "http://localhost:3000/api/");
   const data = await res.json();
   return {
     props: {
