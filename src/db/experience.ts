@@ -14,6 +14,7 @@ export const experience: IExperience = {
     "Tailwind",
     "Typescript",
     "ReactJs",
+    "AngularJs",
     "Nextjs",
   ],
   backend: ["Node JS", "Mongo DB", "Graphql", "SQL", "PostgresSQL"],
