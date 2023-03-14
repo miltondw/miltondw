@@ -17,6 +17,14 @@ export const projects: IProjects[] = [
     info: "MyDayApp es una aplicación para gestionar tareas de forma sencilla, fácil y en donde pondrás a pruebas tus conocimientos en Angular. EL cual es un laboratorio de prueba técnica de Angular en Platzi",
     id: 6,
   },
+   {
+  6     img: "/assets/portfolio/admin.png",
+  7     git: "https://github.com/miltondw/my-store-angular",
+  8     demo: "https://miltondw.github.io/my-store-angular/home",
+  9     title: "Store fake Platzi",
+ 10     info: "Construcción de una store basica mas una zona de amin donde se pueden crear productos y categorias. La API: https://api.escuelajs.co/api/v1/products/",
+ 11     id: 7,
+ 12   },
   {
     img: "/assets/portfolio/characters-start-wars.png",
     git: "https://github.com/miltondw/characters-start-wars",
