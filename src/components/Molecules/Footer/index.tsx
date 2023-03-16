@@ -6,7 +6,7 @@ export const Footer = () => {
     ["Conóceme", "#about"],
     ["Experiencia", "#experience"],
     ["Servicios", "#services"],
-    ["Proyectos", "#portfolio"],
+    ["Proyectos", "#projects"],
     ["Contácteme", "#contact"],
   ];
   return (

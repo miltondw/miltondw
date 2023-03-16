@@ -18,7 +18,7 @@ export const items = [
         icon: () => <GiBookshelf />,
     },
     {
-        link: "#services",
+        link: "#projects",
         icon: () => <MdOutlineDesignServices />,
     },
     {
