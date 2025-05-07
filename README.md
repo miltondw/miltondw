@@ -1,7 +1,5 @@
 # ¡Hola! Soy Milton Estrada 👋
 
-[![Innovación y Tecnología](https://res.cloudinary.com/practicaldev/image/fetch/s--MLrhag65--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pdib9r9rk5j1m7oala1p.png)](https://miltondw.github.io/)
-
 **Desarrollador Full-Stack apasionado por la innovación y la tecnología, impulsando el crecimiento digital de empresas y fundaciones a través de soluciones web y de software robustas y escalables.**
 
 Mi enfoque se centra en transformar ideas en soluciones tangibles que generen un impacto real. He tenido la oportunidad de colaborar con diversas organizaciones, desde la concepción de nuevos productos hasta el desarrollo de software a medida que se adapta perfectamente a sus necesidades.
